@@ -3,6 +3,6 @@
 
 ## category
 
-format: `repo-number-feature.md`
+format: `status(WIP|ACTIVE)-repo-number-feature.md`, status should be uppercase!
 
 - `use-rematch**` for [use-rematch](https://github.com/JiangWeixian/use-rematch)
