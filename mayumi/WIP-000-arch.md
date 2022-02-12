@@ -4,17 +4,28 @@
 
 # Summary
 
-css framework in granen
+mayumi ui framework tech arch
+
+- react
+- styled-components
+- tailwindcss - `tw.marco` combine tailwindcss and styled-components
+
+rename `granen` to `mayumi`.
 
 # Basic example
 
 ```ts
 import { Button } from 'granen'
-
-// No more extra style import
 ```
 
+1. No more extra style import
+2. Condition exports
+3. Tailwindcss
+4. macos style like
+
 # Motivation
+
+**tech-stack**
 
 granen now use follow css tech stacks
 
@@ -38,37 +49,40 @@ translate to
 }
 ```
 
-it heavy rely on `babel-plugin*` and `regex`, so it will not always work great~
+it heavy rely on `babel-plugin*` and `regex`, so it will not always work great~ And `tw.marco` much great.
+
+**implement**
+
+`mayumi` should based on open-source ui framework, in `granen`, maybe not do too much react ui implement, and lack of macos design figma resource. So switch and change variable nam, and bugs fixed too much times.
+
+- nextui
+- https://design.wonderflow.ai/
+
+**rename**
+
+`granen` is already `0.5.0`, but still in very `beta` mode. It make users really confused. Restart the game from `mayumi`, release version with snapshot, or link local.
+
+**less is more**
+
+`granen` has too much components, but not-one is perfect. So the new repo, should start from `cheatsheets`. choose less
+
+**build docs runtime**
+
+- better docs reference
 
 # Detailed design
 
-This is the bulk of the RFC. Explain the design in enough detail for somebody familiar with the
-implementation to implement. This should get into specifics and corner-cases,
-and include examples of how the feature is used. Any new terminology should be
-defined here.
+// TODO
 
 # Drawbacks
 
-Why should we *not* do this? Please consider:
-
-- implementation cost, both in term of code size and complexity
-- whether the proposed feature can be implemented in user space
-- the impact on users
-- integration of this feature with other existing and planned features
-- cost of migrating (is it a breaking change?)
-
-There are tradeoffs to choosing any path. Attempt to identify them here.
-
-# Alternatives
-
-What other designs have been considered? What is the impact of not doing this?
+not contain too-much components like `react-highlight`, it should outside of `mayumi`.
 
 # Adoption strategy
 
-If we implement this proposal, how will existing users adopt it? Is
-this a breaking change? Can we write a codemod? Can we provide a runtime adapter library for the original API it replaces? 
+- deprecated granen
+- replace granen to mayumi
 
 # Unresolved questions
 
-Optional, but suggested for first drafts. What parts of the design are still
-TBD?
+- [ ] hooks of animation effects
