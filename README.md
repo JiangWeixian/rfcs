@@ -14,6 +14,6 @@ format: `status(WIP|ACTIVE)-repo-number-feature.md`, status should be uppercase!
 
 two parts of before head to code~
 
-1. rfcs
-2. ideas
+1. rfcs - write feature draft of project in md
+2. ideas - create ideas in issue
 
