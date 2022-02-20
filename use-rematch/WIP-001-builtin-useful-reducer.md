@@ -39,7 +39,7 @@ const { dispatch, chain } = useRematch({
 })
 ```
 
-but `useState` in default provide `setState` api. it make `useState` much simple.
+you have to do one-more step like write `reducers` like `update and set`, but `useState` in default provide `setState` api. it make `useState` much simple.
 
 # Detailed design
 
@@ -68,9 +68,16 @@ finialReducers = merge(model.reducers, builtIn.reducers)
     // update state by this.state
   }
 }
+
+const { chain } = useRematch()
+
+chain(state => state.zoos)
+  .add()
+  .delete()
+  .end()
 ```
 
-- [ ] **how make state in chain partial update**
+- [ ] **how make state in chain partial update state**
 
 # Drawbacks
 
