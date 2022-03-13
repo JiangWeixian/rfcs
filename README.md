@@ -7,8 +7,8 @@ format: `status(DRAFT|WIP|ACTIVE)-repo-number-feature.md`, status should be uppe
 
 ### status
 
-- `DRAFT` - Early status of rfc ideas.
-- `WIP` - Deep in thinking of rfc possibility, and how to implement it/
+- `DRAFT` - Early status of rfc ideas(maybe not implement, could be inactive in anytime).
+- `WIP` - Deep in thinking of rfc possibility, and how to implement it.
 - `ACTIVE` - In processing.
 
 ### scopes
