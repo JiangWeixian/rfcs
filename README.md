@@ -18,6 +18,7 @@ format: `status(DRAFT|WIP|ACTIVE)-repo-number-feature.md`, status should be uppe
 - `use-rematch` for [use-rematch](https://github.com/JiangWeixian/use-rematch)
 - `mayumi` for macos-native like ui framework
 - `blog` for personal blogs, but for build a blog website, not blog content self.
+- `lotips` utils functions collection project
 
 ## usage
 
