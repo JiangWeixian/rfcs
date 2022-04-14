@@ -25,6 +25,13 @@ Will be much better if I can list they all once-time.
 
 # Detailed design
 
+## Tech Stack
+
+1. https://github.com/saadeghi/daisyui
+2. vite
+
+## Usage
+
 1. Click ext icon, and list all npm readme in float panel
 
 # Unresolved questions
