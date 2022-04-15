@@ -23,8 +23,6 @@ When i read pkg source code, I just want to know what the npm do, there are some
 
 Will be much better if I can list they all once-time.
 
-# Detailed design
-
 ## Tech Stack
 
 1. https://github.com/saadeghi/daisyui
