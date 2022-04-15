@@ -13,3 +13,7 @@ Make it work in monorepo.
 # Motivation
 
 Monorepo is much common repo type.
+
+refs:
+
+- [list all package json](https://stackoverflow.com/questions/48191942/using-github-api-to-retrieve-files-with-specific-extension)
