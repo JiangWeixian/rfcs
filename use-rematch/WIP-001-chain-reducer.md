@@ -115,3 +115,13 @@ const { dispatch, chain } = useRematch({
 # Unresolved questions
 
 - [ ] - should we builtin chain in default, or make `plugin-chain`
+- [ ] - usereducer in follow version is better than usestate?
+  
+  ```ts
+  // state is object
+  usereducer(state)
+  usestate(state)
+
+  // if we update state partial
+  // how many times does framework render
+  ```
