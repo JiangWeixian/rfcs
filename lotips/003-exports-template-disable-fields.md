@@ -33,7 +33,7 @@ Sometimes, types filed is not auto-generated, it's manual wroten by developer.
 
 original logic still same.
 
-disable fields after original logic, force delete `disable fields` regaless of other settings.
+disable fields after original logic, force delete `disable fields` regardless of other settings.
 
 # Drawbacks
 
