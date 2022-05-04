@@ -31,7 +31,9 @@ Sometimes, types filed is not auto-generated, it's manual wroten by developer.
 
 # Detailed design
 
+original logic still same.
 
+disable fields after original logic, force delete `disable fields` regaless of other settings.
 
 # Drawbacks
 
