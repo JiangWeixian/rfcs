@@ -16,3 +16,7 @@ Describe how you propose to solve the problem and provide code samples of how th
 **Attach releated information**
 Attach some releated information like someone others approach, or some links help this idea starup.
 
+**Check list**
+A much complex and detail check list, before your spend your time on your awesome ideas. Please read it clearly.
+
+https://www.defmacro.org/2019/03/26/startup-checklist.html
