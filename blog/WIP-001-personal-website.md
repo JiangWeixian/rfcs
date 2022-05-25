@@ -33,25 +33,47 @@ Milestones
 
 - [ ] blogs like website + dark style(no light mode)
 - [ ] Self Introduction, like https://evanyou.me/
-- [ ] RSS, blog update/products update. currently is blog update
+- [ ] RSS/mail subscribe, blog update/products update. currently is blog update
 - [ ] homepage(or another specific tab) build with threejs
 - [ ] link to your products(products may has own website), list your products(on this personal blog website)
 - [ ] Resume
+- [ ] Blog comments system
 
 ## Tech stacks
 
 - (framework) nextjs
 - (style) tailwindcss + mayumi(dark only)
 - mdx, cound enhanced basic markdown grammar with custom ;components
-- static website
+- (fast speed) static website
 
 https://github.com/leerob/on-demand-isr/blob/main/pages/index.tsx;
 
-awesome nextjs feature
+ISR, awesome nextjs feature
 
 1. issue to static website
 2. auto revalidate and generate new website without deploy
-## Blog up-to-date
+
+### UI
+
+Mayumi, tailwindcss, dark theme
+
+- Mayumi provide default components/layout and theme
+- tailwindcss typography render markdown content
+
+## Blog
+
+`/issues` - blog issues list
+
+layout, simple issue lists
+
+`/issues/[id]` - issue detail content
+
+- main part, blog content
+- create at
+- tags? issue category.
+- next and prev issue link
+
+### CRUD
 
 Edit/Create Blog content has hight frequent updates, should be as simple as possible. others like resume etc... has less frequent updates.
 
@@ -60,7 +82,4 @@ Edit/Create Blog content has hight frequent updates, should be as simple as poss
 1. create blog article in github issue
 2. render github issue into page
 
-
 # Unresolved questions
-
-- [ ] tech stacks
