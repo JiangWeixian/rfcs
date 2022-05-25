@@ -33,7 +33,7 @@ Milestones
 
 - [ ] blogs like website + dark style(no light mode)
 - [ ] Self Introduction, like https://evanyou.me/
-- [ ] RSS/mail subscribe, blog update/products update. currently is blog update
+- [ ] RSS/newsletter subscribe, blog update/products update. currently is blog update
 - [ ] homepage(or another specific tab) build with threejs
 - [ ] link to your products(products may has own website), list your products(on this personal blog website)
 - [ ] Resume
@@ -60,7 +60,13 @@ Mayumi, tailwindcss, dark theme
 - Mayumi provide default components/layout and theme
 - tailwindcss typography render markdown content
 
-## Blog
+#### Footer
+
+like https://kentcdodds.com/blog
+
+- social link
+
+#### Blog
 
 `/issues` - blog issues list
 
@@ -73,7 +79,7 @@ layout, simple issue lists
 - tags? issue category.
 - next and prev issue link
 
-### CRUD
+## Blog - CRUD
 
 Edit/Create Blog content has hight frequent updates, should be as simple as possible. others like resume etc... has less frequent updates.
 
