@@ -1,7 +1,8 @@
 {
   "config": {
     "cz-emoji": {
-      "scopes": ["mayumi", "fp", "use-rematch", "blog", "projects", "lotips", "omcs"]
+      "path": "node_modules/cz-emoji",
+      "scopes": ["mayumi", "fp", "use-rematch", "blog", "projects", "lotips", "omcs", "ifu"]
     }
   }
 }

@@ -16,8 +16,6 @@ like sandbox
 
 Just want to know how my hooks(or utils functions) work!
 
-# Reason
-
 1. debug code
 2. unit test case not cover all, visiable playgound with rich option interactive. e2e test is too boring.
 
@@ -28,3 +26,5 @@ there are lots of tech to make playground happen.
 - [ ] storybook
 - [ ] sandbox(or other tools)
 - [ ] vite + live-code(npm package)
+
+# Reason
