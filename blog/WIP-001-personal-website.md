@@ -1,55 +1,91 @@
-- Start Date: (fill me in with today's date, YYYY-MM-DD)
+- Start Date: 2022/05/24
 - Reference Issues: (fill in existing related issues, if any)
 - Implementation PR: (leave this empty)
 
 # Summary
 
-Brief explanation of the feature.
+Build personal blog site.
+
+- self host domain(not a vercel domain or netlify domain)
 
 # Basic example
 
-If the proposal involves a new or changed API, include a basic code example.
-Omit this section if it's not applicable.
+website should like <jwx.ink>, domain should be as short as possible.
+
+- <jwx.me>
+- <jwx.ink>
 
 # Motivation
 
-Why are we doing this? What use cases does it support? What is the expected
-outcome?
-
-Please focus on explaining the motivation so that if this RFC is not accepted,
-the motivation could be used to develop alternative solutions. In other words,
-enumerate the constraints you are trying to solve without coupling them too
-closely to the solution you have in mind.
+1. You should always keep share you learn, think, create, reading, workspace etc... The more you share, the more you learn.
+2. Improve seo - your impact on community bring money and let your creating know to others
+3. Social - you will find your Friends based on your shared content.
 
 # Detailed design
 
-This is the bulk of the RFC. Explain the design in enough detail for somebody familiar with the
-implementation to implement. This should get into specifics and corner-cases,
-and include examples of how the feature is used. Any new terminology should be
-defined here.
+Features in brief
 
-# Drawbacks
+- Website should be **fast**
+- Simple, not group by tags is ok in first version.
+- Searchable is not required 
 
-Why should we *not* do this? Please consider:
+Milestones
 
-- implementation cost, both in term of code size and complexity
-- whether the proposed feature can be implemented in user space
-- the impact on users
-- integration of this feature with other existing and planned features
-- cost of migrating (is it a breaking change?)
+- [ ] blogs like website + dark style(no light mode)
+- [ ] Self Introduction, like https://evanyou.me/
+- [ ] RSS/newsletter subscribe, blog update/products update. currently is blog update
+- [ ] homepage(or another specific tab) build with threejs
+- [ ] link to your products(products may has own website), list your products(on this personal blog website)
+- [ ] Resume
+- [ ] Blog comments system
 
-There are tradeoffs to choosing any path. Attempt to identify them here.
+## Tech stacks
 
-# Alternatives
+- (framework) nextjs
+- (style) tailwindcss + mayumi(dark only)
+- mdx, cound enhanced basic markdown grammar with custom ;components
+- (fast speed) static website
 
-What other designs have been considered? What is the impact of not doing this?
+https://github.com/leerob/on-demand-isr/blob/main/pages/index.tsx;
 
-# Adoption strategy
+ISR, awesome nextjs feature
 
-If we implement this proposal, how will existing users adopt it? Is
-this a breaking change? Can we write a codemod? Can we provide a runtime adapter library for the original API it replaces? 
+1. issue to static website
+2. auto revalidate and generate new website without deploy
+
+### UI
+
+Mayumi, tailwindcss, dark theme
+
+- Mayumi provide default components/layout and theme
+- tailwindcss typography render markdown content
+
+#### Footer
+
+like https://kentcdodds.com/blog
+
+- social link
+
+#### Blog
+
+`/issues` - blog issues list
+
+layout, simple issue lists
+
+`/issues/[id]` - issue detail content
+
+- main part, blog content
+- create at
+- tags? issue category.
+- next and prev issue link
+
+## Blog - CRUD
+
+Edit/Create Blog content has hight frequent updates, should be as simple as possible. others like resume etc... has less frequent updates.
+
+~~never push blog content in website~~
+
+1. create blog article in github issue
+2. render github issue into page
 
 # Unresolved questions
-
-Optional, but suggested for first drafts. What parts of the design are still
-TBD?
