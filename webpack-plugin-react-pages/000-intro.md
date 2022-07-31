@@ -1,5 +1,5 @@
 - Start Date: 2022/07/25
-- Implementation Repo: [(leave this empty)](https://github.com/JiangWeixian/webpack-plugin-react-pages)
+- Implementation Repo: https://github.com/JiangWeixian/webpack-plugin-react-pages
 
 # Summary
 
@@ -27,7 +27,7 @@ const Routes = useRoutes(routes)
 4. import routes from `virtual:react-pages`, startwith `virtual:` protocol
 5. provide global types to make `virtual-module` type safe.
   
-there is hmr issue with `webpack5` and `webpack-virtual-module`.
+there is hmr issue with `webpack5` and `webpack-virtual-module`. Hack `watch-file-system`.
 
 # Drawbacks
 
@@ -43,4 +43,5 @@ Write raw react routes
 
 # Unresolved questions
 
-- [ ] in build mode, maybe should not clear cache before generate.
+- [ ] In dev mode, clear cache files each time, maybe listen file-system `add/remove`, remove changed file from cache.
+- [ ] In build mode, maybe should not clear cache before generate.

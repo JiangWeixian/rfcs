@@ -20,6 +20,7 @@ format: `status(DRAFT|WIP|ACTIVE)-repo-number-feature.md`, status should be uppe
 - `blog` for personal blogs, but for build a blog website, not blog content self.
 - `lotips` utils functions collection project
 - `ifu` alfred(raycast) workflow(extentions)
+- `wp-react-pages` webpack-plugin-react-pages provide virtual react routes module.
 
 ## usage
 
