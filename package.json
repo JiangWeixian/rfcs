@@ -2,7 +2,7 @@
   "config": {
     "cz-emoji": {
       "path": "node_modules/cz-emoji",
-      "scopes": ["mayumi", "fp", "use-rematch", "blog", "projects", "lotips", "omcs", "ifu", "webpack-plugin-react-pages"]
+      "scopes": ["mayumi", "fp", "use-rematch", "blog", "projects", "lotips", "omcs", "ifu", "wp-react-pages"]
     }
   }
 }
