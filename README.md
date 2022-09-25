@@ -21,6 +21,7 @@ format: `status(DRAFT|WIP|ACTIVE)-repo-number-feature.md`, status should be uppe
 - `lotips` utils functions collection project
 - `ifu` alfred(raycast) workflow(extentions)
 - `wp-react-pages` webpack-plugin-react-pages provide virtual react routes module.
+- `review` year reviews
 
 ## usage
 
