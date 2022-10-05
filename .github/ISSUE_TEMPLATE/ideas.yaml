@@ -1,0 +1,170 @@
+name: 💡 Feature request
+description: I have a new idea
+title: "<title>"
+labels: [rough-ideas]
+body:
+- type: textarea
+  attributes:
+    label: Describe what problem does this feature solve?
+    description: A clear and concise description of what you want to happen.
+    render: Markdown
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Describe what does the proposed API/APP look like?
+    description: Describe how you propose to solve the problem and provide code samples of how the API would work once implemented. Note that you can use Markdown to format your code blocks.
+    render: Markdown
+  validations:
+    required: true
+# Check before start it. A much complex and detail [check list](https://www.defmacro.org/2019/03/26/startup-checklist.html), before your spend your time on your awesome ideas. Please read it clearly.
+# Product
+- type: input
+  attributes:
+    label: Who are the users?
+    description: Who cares?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: The product story!
+    description: | 
+      Write a tweet/post from a hypothetical customer explaining the product and how it eliminates their dissatisfaction.
+    render: Markdown
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Metrics of goodness
+    description: | 
+      What “metrics of goodness” do your target customers care about? Does your product dominate every available alternative on these metrics? (i.e. what can you do that no one else can do?)
+      See also
+      1. [The Rise of Worse is Better](https://www.jwz.org/doc/worse-is-better.html)
+      2. [Worse is worse](https://www.artima.com/weblogs/viewpost.jsp?thread=24807)
+      3. [Jeff Bezos explains Amazon.com](https://twitter.com/profgalloway/status/1192777681789739008)
+    render: Markdown
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Is it awesome?
+    description: Elon Musk Advises CEOs - https://www.wsj.com/articles/elon-musk-advises-ceos-to-stop-wasting-time-on-powerpoint-meetings-11607470065
+    options:
+      - "Yes"
+      - "No"
+  validations:
+    required: true
+
+# Growth
+- type: textarea
+  attributes:
+    label: Related class
+    description: | 
+      Fill in the bottom-up market size equation NUM_USERS * ACV = MARKET_SIZE. Are your numbers credible? Find a good reference class if you are building something completely new.
+      See also
+      1. [Shut up and multiply](https://wiki.lesswrong.com/wiki/Shut_up_and_multiply)
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Buggy product
+    description: Which subset of your target customers are so constrained by the status quo, they’ll welcome a buggy product
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Cold startup
+    description: | 
+      List your first ten customers.
+      See also
+      1. [Do Things that Don’t Scale](http://paulgraham.com/ds.html)
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Where are your customers
+    description: | 
+      Which playbook will you use to get customers after the first ten?
+      See also
+      1. [Five ways to build a $100 million business](http://christophjanz.blogspot.com/2014/10/five-ways-to-build-100-million-business.html)
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Fund
+    description: | 
+      What would need to be true in 18 months for you to get essentially unlimited cheap capital? How will you achieve that?
+      See also
+      1. [Fast](https://patrickcollison.com/fast)
+  validations:
+    required: false
+
+# Strategy
+- type: textarea
+  attributes:
+    label: Why now?
+    description: Why now? What’s true about the world that nobody else figured out yet?
+  validations:
+    required: false
+
+- type: input
+  attributes:
+    label: Milestone
+    description: What is the most ambitious achievable milestone for your company within a 25 year time horizon?
+  validations:
+    required: false
+
+- type: dropdown
+  attributes:
+    label: Production health.
+    description: Is your product a credible advance toward this milestone?
+    options:
+      - "Yes"
+      - "No"
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Milestone and more milestones.
+    description: | 
+      What’s the next credible advance toward this milestone? The one after that? The one after that?
+      See also
+      1. [Tesla master plan](https://twitter.com/spakhm/status/1179514116907495424)
+      2. [iPhone runs OSX](https://twitter.com/stevesi/status/1111092932252041216)
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Build a moat.
+    description: | 
+      How will you build a moat?
+      See also
+      1. [How Competitive Forces Shape Strategy](https://hbr.org/1979/03/how-competitive-forces-shape-strategy)
+  validations:
+    required: false
+
+# Meaning
+
+- type: dropdown
+  attributes:
+    label: Solo or join.
+    description: If another company was working on this idea and not you, what would you think about it? Would you join them?
+    options:
+      - "Yes"
+      - "No"
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: If you failed.
+    description: |
+      Imagine yourself standing in front of your team, investors, family, and friends. You’ve failed, and they’re waiting for you to speak. What will you say? Are you willing to work on this problem given that failure is the default?
+      See also
+      1. [Your intervention won’t work](https://twitter.com/statsepi/status/1021334815822548992)
+  validations:
+    required: false
