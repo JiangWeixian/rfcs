@@ -105,7 +105,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   attributes:
     label: Milestone
     description: What is the most ambitious achievable milestone for your company within a 25 year time horizon?
