@@ -7,14 +7,12 @@ body:
   attributes:
     label: Describe what problem does this feature solve?
     description: A clear and concise description of what you want to happen.
-    render: Markdown
   validations:
     required: true
 - type: textarea
   attributes:
     label: Describe what does the proposed API/APP look like?
     description: Describe how you propose to solve the problem and provide code samples of how the API would work once implemented. Note that you can use Markdown to format your code blocks.
-    render: Markdown
   validations:
     required: true
 # Check before start it. A much complex and detail [check list](https://www.defmacro.org/2019/03/26/startup-checklist.html), before your spend your time on your awesome ideas. Please read it clearly.
@@ -30,7 +28,6 @@ body:
     label: The product story!
     description: | 
       Write a tweet/post from a hypothetical customer explaining the product and how it eliminates their dissatisfaction.
-    render: Markdown
   validations:
     required: true
 - type: textarea
@@ -42,7 +39,6 @@ body:
       1. [The Rise of Worse is Better](https://www.jwz.org/doc/worse-is-better.html)
       2. [Worse is worse](https://www.artima.com/weblogs/viewpost.jsp?thread=24807)
       3. [Jeff Bezos explains Amazon.com](https://twitter.com/profgalloway/status/1192777681789739008)
-    render: Markdown
   validations:
     required: true
 - type: dropdown
