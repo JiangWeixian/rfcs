@@ -1,6 +1,6 @@
 name: 💡 Feature request
 description: I have a new idea
-title: "<title>"
+title: "<What's your idea>"
 labels: [rough-ideas]
 body:
 - type: textarea
